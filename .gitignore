@@ -1,0 +1,21 @@
+# Virtual environments
+venv/
+.venv/
+
+# Secrets
+.env
+.env.*
+
+# Allow sample environment configuration
+!.env.example
+
+# SQLite databases and backups
+*.db
+*.db-*
+
+# Python
+__pycache__/
+*.pyc
+
+# Testing
+.pytest_cache/
